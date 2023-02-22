@@ -1,21 +1,21 @@
 import { fuel, make, vehicleclass } from "../models/data-model";
 
 export const makesData:make[] = [
-    {name:'Volvo'},
-    {name:'Mercedes Benz'},
     {name:'Audi'},
-    {name:'Volkswagen'},
-    {name:'Toyota'},
-    {name:'Ford'},
-    {name:'Honda Motors'},
-    {name:'Tesla Motors'},
-    {name:'Stellantis'},
     {name:'BMW'},
+    {name:'Ford'},
     {name:'General Motors'},
-    {name:'SAIC'},
+    {name:'Honda Motors'},
     {name:'Hyundai'},
+    {name:'Mercedes Benz'},
+    {name:'Renault'},
+    {name:'Stellantis'},
+    {name:'SAIC'},
     {name:'Tata'},
-    {name:'Renault'}
+    {name:'Tesla Motors'},
+    {name:'Toyota'},
+    {name:'Volkswagen'},
+    {name:'Volvo'},
 ];
 
 export const fuelTypes:fuel[] =[

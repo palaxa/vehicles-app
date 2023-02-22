@@ -1,0 +1,75 @@
+<section>
+  <div class="container">
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="numberPlates$">
+
+        <ng-container matColumnDef="regNo">
+          <th mat-header-cell *matHeaderCellDef> Reg/Number Plate No. </th>
+          <td mat-cell *matCellDef="let element"> {{element.registrationNumber}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.ownerName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="regDate">
+          <th mat-header-cell *matHeaderCellDef> Registraion Date </th>
+          <td mat-cell *matCellDef="let element"> {{element.registrationDate | date:'dd/MM/yyyy'}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="make">
+          <th mat-header-cell *matHeaderCellDef> Make </th>
+          <td mat-cell *matCellDef="let element"> {{element.make}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="model">
+          <th mat-header-cell *matHeaderCellDef> Model </th>
+          <td mat-cell *matCellDef="let element"> {{element.modelName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="vehicleClass">
+          <th mat-header-cell *matHeaderCellDef> Vehicle class</th>
+          <td mat-cell *matCellDef="let element"> {{element.vehicleClass}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="fuelType">
+          <th mat-header-cell *matHeaderCellDef> Fuel type </th>
+          <td mat-cell *matCellDef="let element"> {{element.fuelType}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="fitnessDueDate">
+          <th mat-header-cell *matHeaderCellDef> Fitness Till Date </th>
+          <td mat-cell *matCellDef="let element"> {{element.fitnessValidTill | date:'dd/MM/yyyy'}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+          <th mat-header-cell *matHeaderCellDef>Action</th>
+          <td mat-cell *matCellDef="let element">
+            <div>
+              <button mat-icon-button color="primary" (click)="deleteNumberPlate(element)" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+              </button>
+              <!-- [routerLink]="['/edit',element.id]" -->
+              <button mat-icon-button color="primary" (click)="updateNumberPlate(element)" aria-label="Example icon button with a edit icon">
+                <mat-icon>edit</mat-icon>
+              </button>
+            </div>
+
+
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="addButton">
+    <button mat-fab (click)="addNewNumberplate()" aria-label="Example icon-button with a add_circle icon" >
+    <mat-icon>add_circle</mat-icon>
+    </button>
+  </div>
+</section>
+

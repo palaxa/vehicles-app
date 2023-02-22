@@ -36,7 +36,9 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+/package-lock.json
 
 # System files
 .DS_Store
 Thumbs.db
+src/app/Vehicles/cars/add-numberplate/add-numberplate.component.spec.ts

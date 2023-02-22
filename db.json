@@ -1,0 +1,72 @@
+{
+  "numberPlates": [
+    {
+      "id": 111,
+      "registrationNumber": "BAH972",
+      "registrationDate": "2023-01-01",
+      "ownerName": "Poornima",
+      "chassisNo": "889XCE779797SHJYT",
+      "engineNo": "BNHYU778830",
+      "make": "BMW",
+      "modelName": "X1",
+      "fuelType": "Petrol",
+      "vehicleClass": "SUV",
+      "fitnessValidTill": "2050-06-31",
+      "color": "White",
+      "registrationAuthority": "Bengalore RTO",
+      "seatCapacity": 5
+    },
+    {
+      "registrationNumber": "IND899",
+      "registrationDate": "2023-02-07T18:30:00.000Z",
+      "ownerName": "Akhil",
+      "chassisNo": "FGTT88687976",
+      "engineNo": "NJHJ766868",
+      "make": "Volvo",
+      "modelName": "S90",
+      "fuelType": "Petrol",
+      "vehicleClass": "SEDAN",
+      "fitnessValidTill": "2038-02-03T18:30:00.000Z",
+      "id": 1148464932476
+    },
+    {
+      "registrationNumber": "IND666",
+      "registrationDate": "2023-02-13T18:30:00.000Z",
+      "ownerName": "Zahir",
+      "chassisNo": "OKJY677999",
+      "engineNo": "THTS6868686",
+      "make": "Tesla Motors",
+      "modelName": "Model S",
+      "fuelType": "Electric",
+      "vehicleClass": "SEDAN",
+      "fitnessValidTill": "2038-02-09T18:30:00.000Z",
+      "id": 426621418168
+    },
+    {
+      "registrationNumber": "IUG123",
+      "registrationDate": "2023-02-13T18:30:00.000Z",
+      "ownerName": "Palaxa",
+      "chassisNo": "JU776758",
+      "engineNo": "KKY6745869J",
+      "make": "Stellantis",
+      "modelName": "Neon",
+      "fuelType": "Petrol",
+      "vehicleClass": "SUV",
+      "fitnessValidTill": "2038-02-09T18:30:00.000Z",
+      "id": 1077009848908
+    },
+    {
+      "registrationNumber": "IND788",
+      "registrationDate": "2023-02-05T18:30:00.000Z",
+      "ownerName": "Nagaraj",
+      "chassisNo": "HHKH797979",
+      "engineNo": "JLJL797979",
+      "make": "SAIC",
+      "modelName": "MG4",
+      "fuelType": "Petrol",
+      "vehicleClass": "SEDAN",
+      "fitnessValidTill": "2038-02-01T18:30:00.000Z",
+      "id": 1081233171716
+    }
+  ]
+}
